@@ -10,6 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="729dp"
         android:background="#3C87ED"
+        tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="1dp">
 
         <Button
@@ -27,9 +28,21 @@
             android:id="@+id/textView7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
-            android:layout_marginEnd="216dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="200dp"
             android:text="Categories"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="28dp"
+            android:text="Vincenzo Amendola"
             android:textColor="#FFFFFF"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
